@@ -8,7 +8,7 @@
 answer: nslookup guvi.in
 
 2.How do I find my CPU/memory usage of my server? 
-answer: ps -aux
+answer: htop, top
 
 3.Test the connectivity between 2 nodes? 
 answer: ping guvi.in
