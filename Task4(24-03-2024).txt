@@ -1,0 +1,19 @@
+Task->Establish a new directory, populate it with script files, 
+initiate an empty repository on GitHub, convert the local directory into a Git repository, 
+and link it to GitHub for pushing the code into the repository
+
+Solution->
+1.Establish a new directory, populate it with script files
+mkdir task4
+cd task4
+
+2.initiate an empty repository on GitHub, convert the local directory into a Git repository
+echo "# practice" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+
+3.and link it to GitHub for pushing the code into the repository
+git remote add origin https://github.com/Aswin-tech-07/practice.git
+git push -u origin main
